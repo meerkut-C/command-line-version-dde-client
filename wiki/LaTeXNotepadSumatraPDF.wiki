@@ -2,7 +2,7 @@
 
 == Notepad++ ==
 
-  # In the `Notepad++` environment, go to the main menu’s `Plugins > NPPExec > Execute`, or press `F6`
+  # In the `Notepad++` environment, go to the main menu’s `Plugins -> NPPExec -> Execute`, or press `F6`
 
   # Enter  in the window that pops-up
 {{{
@@ -12,7 +12,10 @@ pdflatex --synctex=-1 "$(FULL_CURRENT_PATH)"
 }}}
 
 == SumatraPDF ==
-
+  In the SumatraPDF go to the menu `Settings -> Options...` enter stroke for inverse search:
+{{{
+"<path to>\notepad++.exe" -n%l "%f"
+}}}
 
 
 
