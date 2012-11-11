@@ -19,9 +19,13 @@ You now setting up inverse search. I.e. dbl-click  in `SumatraPDF` bring up `Not
 ----
 
 == Notepad++ —> SumatraPDF ==
-  * In the `Notepad++` environment, go to the main menu’s `Plugins -> NPPExec -> Execute`, or press `F6`
-  * Enter  in the window that pops-up
+  # In the `Notepad++` environment, go to the main menu’s `Plugins -> NPPExec -> Execute`, or press `F6`
+  # Enter  in the window that pops-up
 {{{
 cd "$(CURRENT_DIRECTORY)"
 <path to>\cl-2-dde.exe @' 'SUMATRA' 'control' '[ForwardSearch("$(CURRENT_DIRECTORY)\$(NAME_PART).pdf","$(CURRENT_DIRECTORY)\$(NAME_PART)$(EXT_PART)",$(CURRENT_LINE),0,0,0)]'
 }}}
+  # Save it with name about something.
+You now setting up `Forward Search`.
+
+You can assign shortcuts for these scripts in Notepad++.
