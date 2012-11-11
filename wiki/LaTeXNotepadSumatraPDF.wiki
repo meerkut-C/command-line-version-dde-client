@@ -3,7 +3,6 @@
 == Notepad++ ==
 
   # In the `Notepad++` environment, go to the main menu’s `Plugins -> NPPExec -> Execute`, or press `F6`
-
   # Enter  in the window that pops-up
 {{{
 NPP_SAVE
