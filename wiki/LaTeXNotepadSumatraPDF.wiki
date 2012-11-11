@@ -1,0 +1,24 @@
+#summary Setting Up LATEX With Notepad++ and  SumatraPDF
+
+== Notepad++ ==
+
+  # In the `Notepad++` environment, go to the main menu’s `Plugins > NPPExec > Execute`, or press `F6`
+
+  # Enter  in the window that pops-up
+{{{
+NPP_SAVE
+cd "$(CURRENT_DIRECTORY)"
+pdflatex --synctex=-1 "$(FULL_CURRENT_PATH)"
+}}}
+
+== SumatraPDF ==
+
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
