@@ -9,7 +9,7 @@ entirely in assembly language.
 
 
 = Details =
-
+{{{
 versions:
 -------------
 cl-2-dde.exe        --  clean & simple. Use it.
@@ -65,7 +65,7 @@ Example:
                  |_ is not allowed.
 
 
-
+}}}
 Links:
 ---------
 
