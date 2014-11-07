@@ -13,15 +13,14 @@ entirely in assembly language.
 versions:
 -------------
 cl-2-dde.exe        --  clean & simple. Use it.
-cl-2-dde_dbg.exe    --  laws of Murphy: If anything can go wrong, it will.
-                            if something DOES go wrong you can use it to
-                            prints out log to the stdout.
+cl-2-dde_dbg.exe    --  if something does go wrong you can use it to
+                        prints out log to the stdout.
 
 
 USAGE:
 ------
 make sure a DDE server, i.e.
-Excel.exe, SumutraPDF.exe, ... is launched and running.
+Excel.exe, SumutraPDF.exe, gsview32.exe, ... is launched and running.
 
 
 usage examples:
