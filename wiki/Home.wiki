@@ -30,8 +30,7 @@ usage examples:
 E:\>cl-2-dde.exe @= =SUMATRA=    =control=   =[Open("E:\sample.pdf", 0, 1, 0)]=
 E:\>cl-2-dde.exe @' 'SUMATRA' 'control' '[ForwardSearch("E:\sample.pdf","E:\sample.tex",305,0)]'
 E:\>cl-2-dde.exe @- -SUMATRA-    -control-   -[GotoPage("D:\sample2e.pdf",3)]-
-cl-2-dde.exe @' 'GSview' 'GSview' '[FileO
-pen("filename")]'
+cl-2-dde.exe @' 'GSview' 'GSview' '[FileOpen("filename")]'
 
 
 SYNTAX
