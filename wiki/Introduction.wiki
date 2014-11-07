@@ -57,7 +57,7 @@ C:\>cl-2-dde.exe    @, ,service, ,topic, ...abc ignored ...  ,commands, ignored
 Restrictions:
 -------------
 
-'at' signs in full paths to the cl-2-dde.exe is not allowed.
+'at' sign in full paths to the cl-2-dde.exe is not allowed.
 Example:
 'C:\MyFolder\Proj@home\dde\'
                  ^
