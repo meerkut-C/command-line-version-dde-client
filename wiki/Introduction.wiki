@@ -49,6 +49,8 @@ Options: (all options are required)
                           Warning: CMD.EXE have a dozen special chars,
                           e.g. <,>,\,|,&,... do not use them as a delimiter.
 
+                          see: http://ss64.com/nt/syntax-esc.html#escape
+
 
 this works too:
 C:\>cl-2-dde.exe    @, ,service, ,topic, ...abc ignored ...  ,commands, ignored
