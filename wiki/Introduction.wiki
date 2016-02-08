@@ -1,12 +1,11 @@
-#summary Introduction
+## Introduction
 
-= Introduction =
-
+```
 This tool intended for use as a command-line version dde_client
 for forward searching with SumatraPDF when use Notepad++
 as an editor for (La)TeX.  cl-2-dde.exe is small utility written
 entirely in assembly language.
-
+```
 
 ## Details
 ```
@@ -65,8 +64,8 @@ Example:
                  ^
                  |_ is not allowed.
 
-
 ```
+
 Links:
 ---------
 
