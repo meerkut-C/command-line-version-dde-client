@@ -1,6 +1,8 @@
 
 ==  Introduction ==
-This tool intended for use as a command-line version `dde_client` for forward searching with  `SumatraPDF` when use `Notepad++` as an editor for (La)TeX. `cl-2-dde.exe` is small utility written entirely in assembly language.```
+This tool intended for use as a command-line version `dde_client` for forward searching with  `SumatraPDF` when use `Notepad++` as an editor for (La)TeX.     
+
+`cl-2-dde.exe` is a small utility written entirely in assembly language.
 
 == Details ==
 
@@ -15,7 +17,7 @@ cl-2-dde_dbg.exe    --  if something does go wrong you can use it
 USAGE:
 ------
 
-make sure a DDE server, i.e.Excel.exe, 
+make sure a DDE server, i.e. Excel.exe, 
 SumutraPDF.exe, gsview32.exe, ... 
 is launched and running.
 
@@ -53,17 +55,22 @@ C:\>cl-2-dde.exe    @, ,service, ,topic, ...abc ignored ...  ,commands, ignored
 
 Restrictions:
 -------------
+The only exception is that the @ character is not permitted as the character 
+of a string path to the cl-2-dde.exe. That is,
 
-'at' sign in full paths to the cl-2-dde.exe is not allowed.
 Example:
 'C:\MyFolder\Proj@home\dde\'
                  ^
-                 |_ is not allowed.
+                  \_ is not permitted.
 
 </pre>
 
 Links:
 ---------
 
+http://code.google.com/p/sumatrapdf/wiki/DDEcommands
+https://partners.adobe.com/asn/acrobat/sdk/reg/Documentation/Core_API/CoreAPIReference.pdf (http://sourceforge.net/projects/notepad-plus/forums/forum/331753/topic/3085267)
+http://william.famille-blum.org/blog/static.php?page=static081010-000413
+http://sourceforge.net/projects/npp-plugins/forums/forum/672146/topic/3914253
 
 
