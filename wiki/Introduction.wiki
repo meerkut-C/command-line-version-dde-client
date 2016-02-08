@@ -1,10 +1,20 @@
 
-==  Introduction ==
+##  Introduction ##
 This tool intended for use as a command-line version `dde_client` for forward searching with  `SumatraPDF` when use `Notepad++` as an editor for (La)TeX.     
 
 `cl-2-dde.exe` is a small utility written entirely in assembly language.
 
-== Details ==
+DDE is used to issue commands and data into an server DDE, e.g.
+MS Excel, MS Word, Sumatra PDF, ...
+
+In this particular **one way** process this programm work.
+
+Using the CMD.EXE command processor, a server DDE, and this programm, you can
+send through DDE the 8192 character command line, where length limit imposed
+by CMD.EXE. If you use ShellExecute/Ex then these functions limits command
+line around 2048 length.
+
+## Details ##
 
 <pre>
 versions:
@@ -23,6 +33,16 @@ is launched and running.
 
 usage examples:
 --------------
+
+with Excel, please make sure that it is running.
+Make chart:
+C:\cl-2-dde.exe @' 'excel'  'system'  '[Select("R1C1:R1C10")][New(2,2)]'
+
+with Opera:
+C:\cl-2-dde.exe @' 'opera' 'WWW_OpenURL' '"http://code.google.com/p/command-line-version-dde-client/"'
+
+with GSview32.exe
+C:\cl-2-dde.exe  @' 'GSview' 'GSview' '[FileOpen("filename.ps")]'
 
 cl-2-dde.exe  @= =SUMATRA=    =control=   =[Open("E:\sample.pdf", 0, 1, 0)]=
 cl-2-dde.exe  @' 'SUMATRA' 'control' '[ForwardSearch("E:\sample.pdf","E:\sample.tex",305,0)]'
